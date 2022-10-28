@@ -16,7 +16,8 @@ public class urinals {
     }
 
     public static int counter(int count){
-        return 0;
+        count=count+1;
+        return count;
     }
 
     public static void main(String[] args) throws FileNotFoundException {
